@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="space">
+    <div class="container">
+        <div class="title">
+            <h4>SIGN UP</h4>
+        </div>
+        <div class="signup">
+            <form id="signupForm">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your name" required id="name">
+                </div>
+                <div class="input-field">
+                    <input type="email" class="email" placeholder="Enter your email" required id="email">
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Create a password" required id="password">
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Confirm a password" required id="confirmPassword">
+                </div>
+                <div class="button">
+                    <input type="button" value="Register" onclick="validateForm()">
+                </div>
+            </form>
+        </div>
+        <div class="login-signup">
+            <span class="text">Already a member?
+                <a href="login.html" class="text login-link">Login Now</a>
+            </span>
+        </div>
+    </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(197, 234, 252);
+    margin: auto;
+}
+.space{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    background-color:rgb(141, 247, 141);
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    color: brown;
+}
+main {
+    padding: 230px;
+}
+footer {
+    background-color: rgb(141, 247, 141);
+    color:brown;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+.container {
+    width: 70%;
+    height: 50vh;
+    background-color:rgb(141, 247, 141);
+    border-radius: 5px;
+    margin: auto;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+.login-signup{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.input-field{
+    position: relative;
+    width: 50%;
+    height: 5px;
+    margin-top: 30px;
+}
+.input-field button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    width: 100px;
+    height: 15vh;   
+}
+.button:hover {
+    transition: 0.5s;
+    text-decoration:underline;
+    color:darkorange;
+}
+section {
+    margin-bottom: 20px;
+    background-color: rgb(197, 234, 252);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list li {
+    background-color:rgb(141, 247, 141);
+    border: 3px solid brown;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.list li:hover {
+    background-color:yellow;
+}
+.list li::before {
+    content: '📧';
+    margin-right: 10px;
+}
+ 
+
+ 
