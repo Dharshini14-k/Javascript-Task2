@@ -4,11 +4,11 @@ function validateForm() {
     var passwordInput = document.getElementById("password");
     var confirmPasswordInput = document.getElementById("confirmPassword");
 
-    var nameRegex = /^[A-Za-z]+$/;
+    var nameRegex = /^[A-Za-z0-9\s]+$/;
     var emailRegex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
 
-    if (!nameRegex.test(nameInput.value)) {
-        alert("Please enter a valid name with only characters.");
+     if (!nameRegex.test(nameInput.value)) {
+        alert("Please enter a valid name.");
         return false;
     }
 
